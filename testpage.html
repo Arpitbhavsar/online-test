@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+
+    </script>
+</head>
+<body>
+
+    <p>Looping through arrays inside arrays.</p>
+
+    <p id="demo"></p>
+
+    <script src="/home/shashi/Online-test/question.json"/>
+    <script type="text/javascript">
+        $.getJSON("/home/shashi/Online-test/question.json", function(json) {
+        console.log(json); // this will show the info it in firebug console
+        });
+        $(child).text(JSON.stringify(bigJSONObject, null, 4));
+
+
+    </script>
+
+    <p>Take a look at <a href="/home/shashi/Online-test/question.json" target="_blank">Question</a></p>
+
+</body>
+</html>

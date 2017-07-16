@@ -1,0 +1,66 @@
+{
+ "modify_head": {
+
+  "<script type='text/javascript'>",
+  "<!--",
+  "  function drawSomeText(id) {",
+  "  var pjs = Processing.getInstanceById(id);",
+  "  var text = document.getElementById('inputtext').value;",
+  "  pjs.drawText(text);}",
+  "-->",
+  "</script>"
+
+ },
+
+ "modify_body": [
+
+  "<input type='text' id='inputtext'></input>",
+  "<button onclick=drawSomeText('ExampleCanvas')></button>"
+
+ ],
+}
+
+// {
+
+//     "questions":
+
+//         {
+//           "question1": "1.Which of the following statements are correct about the below C-program
+
+//             #include<stdio.h>
+//             int main()
+//             {
+//                 int x = 10, y = 100%90, i;
+//                 for(i=1; i<10; i++)
+//                 if(x != y);
+//                     printf(\\"x = %d y = %d\n", x, y);
+//                 return 0;
+//             }
+//             1 :The printf() function is called 10 times.
+//             2 :The program will produce the output x = 10 y = 10
+//             3 :The ; after the if(x!=y) will NOT produce an error.
+//             4 :The program will not produce output.",
+//         }
+
+
+// }
+
+{
+    "questions" : {
+        "question1": "1.Which of the following statements are correct about the below C-program
+
+            #include<stdio.h>
+            int main()
+            {
+                int x = 10, y = 100%90, i;
+                for(i=1; i<10; i++)
+                if(x != y);
+                    printf(\\"x = %d y = %d\n", x, y);
+                return 0;
+            }
+            1 :The printf() function is called 10 times.
+            2 :The program will produce the output x = 10 y = 10
+            3 :The ; after the if(x!=y) will NOT produce an error.
+            4 :The program will not produce output."
+    }
+}
